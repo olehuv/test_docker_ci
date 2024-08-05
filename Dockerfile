@@ -5,6 +5,7 @@ COPY <<EOF ./main.go
 package main
 
 import "fmt"
+import "time"
 
 func main() {
   fmt.Println("Hello, world! Hi, Oleh! Hi, Everybody!")
