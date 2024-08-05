@@ -22,7 +22,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
-          file: test_docker_ci/image2/Dockerfile
+          file: ./image2/Dockerfile
           push: true
           tags: ${{ vars.DOCKERHUB_USERNAME }}/image_hello_oleh:v3
