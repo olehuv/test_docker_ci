@@ -9,7 +9,7 @@ import "fmt"
 import "time"
 
 func main() {
-  fmt.Println("Hi, Oleh! This is image 2")
+  fmt.Println("Hi user! This is an image 2")
   currentTime := time.Now()
   fmt.Println("Current time:", currentTime.Format("2006-01-02 15:04:05"))
 }
