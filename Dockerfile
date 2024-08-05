@@ -10,7 +10,7 @@ import "time"
 func main() {
   fmt.Println("Hello, world! Hi, Oleh! Hi, Everybody!")
   currentTime := time.Now()
-  fmt.Println("Current time:", currentTime.Format("2006-01-02 15:04:05")
+  fmt.Println("Current time:", currentTime.Format("2006-01-02 15:04:05"))
 }
 EOF
 RUN go build -o /bin/hello ./main.go
