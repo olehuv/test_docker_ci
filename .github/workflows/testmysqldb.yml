@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
   paths:
-      - "./test_db/**
+      - "./test_db/**"
 
 jobs:
   build:
