@@ -8,7 +8,7 @@ import "fmt"
 import "time"
 
 func main() {
-  fmt.Println("Hello, world! Hi, Everybody! This is an image 1")
+  fmt.Println("HI AVIHEYA! This is an image 1")
   currentTime := time.Now()
   fmt.Println("Current time:", currentTime.Format("2006-01-02 15:04:05"))
 }
